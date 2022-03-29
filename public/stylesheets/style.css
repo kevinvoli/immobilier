@@ -1,0 +1,38 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.header{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.nav-transparent{
+  background-color: rgba(198, 242, 202, 0.5);
+  text-align: center;
+}
+.nav-couleur{
+  background-color: rgb(46, 163, 62);
+  text-align: center;
+}
+.carousel-item img{
+  height: 400px;
+  width: 100%;
+}
+
+.navigation{
+  height: 70px;
+
+}
+.section{
+  margin-bottom: 25px;
+}
+.card{
+  margin-bottom: 20px;
+}
+.bg-images{
+  background-image: url('/images/projet1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
