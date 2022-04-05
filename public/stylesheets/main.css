@@ -1,0 +1,106 @@
+*,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    height: 70px;
+    background-color: white;
+}
+.logo-text{
+    color: blue;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.banier{
+    position: relative;
+    text-align: center;
+    height: 400px;
+}
+
+#carousel{
+    z-index: 1;
+    position: absolute;
+}
+.carousel-item img{
+    height: 400px;
+    width: 100%;
+
+}
+.recherche{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    text-align: center;
+}
+.contain-recherche{
+    display: flex;
+    flex-flow: row;
+    height:70px ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+.contain-recherche div{
+    margin-left: 10px;
+}
+.contain-recherche select{
+    border: none;
+    padding: 23px;
+    font-size: 12px;
+    margin-left: 5px;
+} 
+.contain-recherche input {
+    background-color: aliceblue;
+    text-align: center;
+    outline: none;
+    padding: 20px;
+    border: none;
+    width: 12vw;
+}
+
+.button-search{
+    background-color: green;
+    border: none;
+    padding: 20px;
+    padding-left: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.main .section{
+    margin: 20px 0;
+    text-align: center;
+    background-color: rgb(241, 238, 234);
+    
+}
+.article-contain{
+    width: 250px;
+    height: 270px;
+}
+.article-contain img{
+    width: 100%;
+    height: auto;
+}
+.card-contain{
+    margin-bottom:  10px ;
+}
+.card-body{
+    color: black;
+    text-align: left;
+    
+}
+.card-body .card-text{
+    font-size: small;
+}
+.contain-copyright{
+    background-color: rgb(40, 146, 7);
+}
